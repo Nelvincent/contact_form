@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+  <section id="breadcrumb"></section>
+  <div id="form_body">
+    <div class="form_body head_color">
+    <h2>Contact Us</h2>
+    <h3>Pleas us this form to send us a message</h3>
+  </div>
+
+  <div class="form_container">
+    <section>
+      <form action="contact.html" method="post">
+        <div>
+          <label>Full Name:</label>
+          <input type="text" name="fname" >
+        </div>
+
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" >
+        </div>
+
+        <div>
+          <label>Gender:</label>
+            <select id="gender" name="gender">
+              <option value="S">select</option>
+              <option value="M">Male</option>
+              <option value="F">Female</option>
+            </select>
+        </div>
+
+        <div>
+          <label>Your Message:</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+          <input type="submit" name="submit">
+        </div>
+
+      </form>
+    </section>
+
+  </div>
+
+
+
+  </div>
+</body>
+</html>
